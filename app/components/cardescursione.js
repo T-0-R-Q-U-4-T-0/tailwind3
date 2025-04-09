@@ -6,7 +6,7 @@ const Escursione = ({
   durata = "6h 30m",
   disponibilita = " 1 aprile 2024 al: 31 marzo 2026",
   costo = "35,00 €",
-  immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2Fe8d056a6-4748-4c91-8d78-563a41256719.jpg&w=1080&q=75"
+  immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2F44a433f7-5679-4730-adf3-69d0e99d9924.jpg&w=2048&q=75"
 }) => {
     return(
         <div className="bg-white rounded-lg shadow-lg max-w-sm mx-auto">
@@ -17,10 +17,10 @@ const Escursione = ({
         />
         <div className="bg-pink-800 text-white text-center py-2">
           <i className="fas fa-exclamation-circle"></i>
-          <span className="ml-2 font-semibold">PRENOTA SUBITO!</span>
+          <span className="font-semibold">PRENOTA SUBITO!</span>
         </div>
-        <div className="p-4">
-          <h2 className="text-xl mb-2 text-black">
+        <div className="p-2">
+          <h2 className="mb-2 text-black">
             {titolo}
           </h2>
           <p className="text-gray-700">
@@ -37,8 +37,7 @@ const Escursione = ({
               PRENOTA 
             </button>
             <div className="text-right">
-              <span className="text-gray-500 text-sm">Da</span>
-              <p className="text-2xl font-bold text-black">{costo}</p>
+              <p className="font-bold text-black">{costo}</p>
             </div>
           </div>
         </div>

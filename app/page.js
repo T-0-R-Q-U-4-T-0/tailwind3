@@ -1,9 +1,11 @@
 
-import Cardescursione from "./components/cardescursione"
+import Contatti from "./components/contatti"
+import Footer from "./components/footer"
+import hero from "./components/hero"
 export default function Home() {
     return(
-       <div class="flex items-center justify-center min-h-screen bg-slate-800">
-        <Cardescursione/>
+       <div className="flex items-center justify-center min-h-screen bg-slate-800">
+        <Footer/>
         </div>
     )
 }

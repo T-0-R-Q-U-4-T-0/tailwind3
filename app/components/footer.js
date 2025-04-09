@@ -20,7 +20,7 @@ const Footer = ({
         </div>
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <h2 className="text-fuchsia-700 font-bold">Il Doge di Venezia</h2>
+            <h2 className="text-pink-800 font-bold">Il Doge di Venezia</h2>
             <p className="text-gray-800">
             Via Treportina, 30 I-30013  Cavallino
             <br/>
@@ -29,7 +29,7 @@ const Footer = ({
           </div>
 
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <h2 className="text-fuchsia-700 font-bold pl-10">
+            <h2 className="text-pink-800 font-bold pl-10">
               Contatti gruppi
             </h2>
             <p className="text-gray-800 pl-10">
@@ -43,7 +43,7 @@ const Footer = ({
           <div className="text-center mb-4 md:mb-0"></div>
 
           <div className="text-center md:text-left mb-4 md:mb-0 pl-10">
-            <h2 className="text-fuchsia-700 font-bold">
+            <h2 className="text-pink-800 font-bold">
               Contatti Individuali / Escursioni
             </h2>
             <p className="text-gray-800">
@@ -53,7 +53,7 @@ const Footer = ({
             </p>
           </div>
           <div className="text-center md:text-left mb-4 md:mb-0 pl-10">
-            <h2 className="text-fuchsia-700 font-bold">Follow us</h2>
+            <h2 className="text-pink-800 font-bold">Follow us</h2>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
                 href="#"
@@ -119,7 +119,7 @@ const Footer = ({
             </div>
           </div>
           <div className="text-center md:text-left pl-10 ">
-            <h2 className="text-fuchsia-700 font-bold">
+            <h2 className="text-pink-800 font-bold">
               I nostri metodi di pagamento
             </h2>
             <div className="flex justify-center md:justify-start space-x-2">
@@ -132,7 +132,7 @@ const Footer = ({
             </div>
           </div>
         </div>
-        <div className="bg-fuchsia-700 text-white text-center py-2 mt-8">
+        <div className="bg-pink-800 text-white text-center py-2 mt-8">
           <p>
             Il Doge di Venezia S.r.l. - P.Iva: IT03515100273 - Rea VE - 315238
             Privacy &amp; Cookie policy
