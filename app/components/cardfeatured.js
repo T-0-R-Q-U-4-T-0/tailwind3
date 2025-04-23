@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-const CardFeatured = ({
-  immagine = "☏",
-  titolo = "Prenotazione Istantanea",
-  descrizione = "Prenota il tuo tour a Venezia in pochi click, senza attese.",
-}) => {
+export default function CardFeatured({
+  immagine,
+  titolo,
+  descrizione,
+}) {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <title>Prenotazione Istantanea</title>
@@ -26,4 +26,4 @@ const CardFeatured = ({
   );
 };
 
-export default CardFeatured;
+

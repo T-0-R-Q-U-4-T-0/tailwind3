@@ -1,11 +1,11 @@
 import Head from "next/head"
 import React from "react";
 
-const Card = ({
-  immagine = "https://www.aloharicevimenti.it/wp-content/uploads/2019/01/matrimonio.jpg",
-  titolo = "Matrionio a bordo",
-  descrizione = "Scopri il fascino di Venezia in un modo unico e romantico con il nostro servizio Matrimonio a Bordo. Immagina di dire Sì circondato dalle incantevoli acque della...",
-}) => {
+export default function Card({
+  immagine,
+  titolo,
+  descrizione,
+}) {
     return(
         <div className=" flex items-center justify-center min-h-screen">
       <Head>
@@ -42,4 +42,3 @@ const Card = ({
     )
 }
 
-export default Card;

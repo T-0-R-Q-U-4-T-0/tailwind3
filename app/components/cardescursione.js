@@ -1,13 +1,13 @@
 import React from "react";
 
-const Escursione = ({
-  titolo = "Escursione alle 3 Isole Murano - Burano - Torcell...",
-  partenza = "Venezia",
-  durata = "6h 30m",
-  disponibilita = " 1 aprile 2024 al: 31 marzo 2026",
-  costo = "35,00 €",
-  immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2F44a433f7-5679-4730-adf3-69d0e99d9924.jpg&w=2048&q=75"
-}) => {
+export default function Escursione({
+  titolo,
+  partenza,
+  durata,
+  disponibilita,
+  costo,
+  immagine,
+}) {
     return(
         <div className="bg-white rounded-lg shadow-lg max-w-sm mx-auto">
         <img
@@ -45,4 +45,3 @@ const Escursione = ({
     )
 }
 
-export default Escursione;

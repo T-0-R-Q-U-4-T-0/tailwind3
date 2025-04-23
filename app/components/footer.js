@@ -1,8 +1,8 @@
 import React from "react";
 
-const Footer = ({
-  immagine = "https://www.dogedivenezia.it/_next/image?url=%2Fimages%2Flogo.png&w=640&q=100",
-}) => {
+export default  function Footer({
+  immagine,
+}) {
   return (
     <div className="">
       <title>Il Doge di Venezia</title>
@@ -127,4 +127,4 @@ const Footer = ({
   );
 }
 
-export default Footer;
+

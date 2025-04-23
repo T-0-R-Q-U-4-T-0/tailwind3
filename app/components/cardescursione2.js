@@ -1,15 +1,14 @@
 import Head from "next/head"
 import React from "react";
 
-const Escursione2 = ({
-  titolo = "Escursione alle 3 Isole Murano - Burano - Torcello",
-  descrizione = "La nostra prima tappa, Murano, scopri perché l'isola è rinomata per le sue vetrerie con una visita a una fabbrica di vetro locale. Guarda un abile artigiano durante una dimostrazione della lavorazione del vetro. Successivamente, avrai circa un'ora sull'isola per fare shopping in uno dei tanti negozi di vetro.",
-  partenza = "Venezia",
-  durata = "6h 30m",
-  disponibilita = " 1 aprile 2024",
-  costo = "35,00 €",
-  immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2F44a433f7-5679-4730-adf3-69d0e99d9924.jpg&w=2048&q=75"
-}) => {
+export default function Escursione2({
+  titolo,
+  descrizione,
+  partenza,
+  durata,
+  disponibilita,
+  costo,
+}) {
     return(
         <div className="flex justify-center items-center min-h-screen">
         <Head>
@@ -60,4 +59,3 @@ const Escursione2 = ({
     )
 }
 
-export default Escursione2;

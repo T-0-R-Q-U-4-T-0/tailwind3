@@ -1,9 +1,9 @@
 import React from "react";
 
-const Titolo = ({
-  sopratitolo = "Escursioni Giornaliere",
-  sottotitolo1 = "Lasciati trasportare da una brezza marina mentre ammiri i palazzi storici, i ponti iconici e i tesori nascosti della città. Vivi l'emozione di vedere Venezia dal suo elemento più autentico: l'acqua.",
-  }) => {
+export default function Titolo({
+  sopratitolo,
+  sottotitolo1,
+  }) {
   return (
     <div className="items-center">
       <div className="px-24 bg-white p-10">
@@ -18,5 +18,3 @@ const Titolo = ({
     </div>
   );
 }
-
-export default Titolo;
