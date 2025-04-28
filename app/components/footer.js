@@ -5,7 +5,6 @@ export default  function Footer({
 }) {
   return (
     <div className="">
-      <title>Il Doge di Venezia</title>
       <meta name="description" content="Il Doge di Venezia" />
       <link rel="icon" href="/favicon.ico" />
 
@@ -20,7 +19,7 @@ export default  function Footer({
         </div>
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center mb-4 md:mb-0">
-            <h2 className="text-pink-800">Il Doge di Venezia</h2>
+            <h2 className="text-pink-800"></h2>
             <p className="text-gray-800">
             Via Treportina, Cavallino
             <br/>
@@ -30,7 +29,7 @@ export default  function Footer({
 
           <div className="text-center mb-4 md:mb-0">
             <h2 className="text-pink-800 pl-10">
-              Contatti gruppi
+            {gruppi}
             </h2>
             <p className="text-gray-800 pl-10">
               Tel: +39 041 530 23 63
@@ -101,7 +100,7 @@ export default  function Footer({
           </div>
           <div className="text-center pl-10 ">
             <h2 className="text-pink-800">
-              I nostri metodi di pagamento
+             
             </h2>
             <div className="flex justify-center md:justify-start space-x-2">
               <img

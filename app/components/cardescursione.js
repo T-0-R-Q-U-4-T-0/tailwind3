@@ -21,16 +21,16 @@ export default function Escursione({
         </div>
         <div className="p-2">
           <h2 className="mb-2 text-black">
-            {titolo}
+             {titolo}
           </h2>
           <p className="text-gray-700">
-            <strong>Partenza:</strong> {partenza}
+             {partenza}
           </p>
           <p className="text-gray-700">
-            <strong>Durata:</strong> {durata}
+             {durata}
           </p>
           <p className="text-gray-700">
-            <strong>Disponibile dal:</strong> {disponibilita}
+             {disponibilita}
           </p>
           <div className="mt-4 flex items-center justify-between">
             <button className="bg-pink-800 text-white px-10 py-3 rounded-full">

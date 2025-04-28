@@ -9,7 +9,6 @@ export default function Card({
     return(
         <div className=" flex items-center justify-center min-h-screen">
       <Head>
-        <title>Matrionio ma Bordo</title>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           rel="stylesheet"
@@ -33,9 +32,6 @@ export default function Card({
           </h1>
           <p className="text-white text-lg md:text-xl mb-4">
             {descrizione}</p>
-          <button className="bg-white text-pink-900 text-sm font-semibold py-2 px-2 rounded-full ">
-            SCOPRI DI PIÙ
-          </button>
         </div>
       </div>
     </div>

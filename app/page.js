@@ -58,9 +58,16 @@ export default function Home() {
         accettanecessari="ACCETTA NECESSARI"
         preferenze="Preferenze GDPR"
         cookie="Rifiuta cookie non necessari X"
+        
       />
       <Footer 
       immagine = "https://www.dogedivenezia.it/_next/image?url=%2Fimages%2Flogo.png&w=640&q=100"
+      doge="Il Doge di Venezia"
+      gruppi="Contatti gruppi"
+      individuali="Contatti individuali"
+      follow="Follow us"
+      pagamento="Metodi di pagamento"
+      footer=""
       />
       <Titolo
        sopratitolo = "Escursioni Giornaliere"
@@ -73,18 +80,18 @@ export default function Home() {
     />
     <Cardescursione
       titolo = "Escursione alle 3 Isole Murano - Burano - Torcell..."
-      partenza = "Venezia"
-      durata = "6h 30m"
-      disponibilita = " 1 aprile 2024 al: 31 marzo 2026"
+      partenza = "Partenza: Venezia"
+      durata = "Durata: 6h 30m"
+      disponibilita = " Data: 1 aprile 2024"
       costo = "35,00 €"
       immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2F44a433f7-5679-4730-adf3-69d0e99d9924.jpg&w=2048&q=75"
     />
     <Cardescursione2
       titolo = "Escursione alle 3 Isole Murano - Burano - Torcello"
       descrizione = "La nostra prima tappa, Murano, scopri perché l'isola è rinomata per le sue vetrerie con una visita a una fabbrica di vetro locale. Guarda un abile artigiano durante una dimostrazione della lavorazione del vetro. Successivamente, avrai circa un'ora sull'isola per fare shopping in uno dei tanti negozi di vetro."
-      partenza = "Venezia"
-      durata = "6h 30m"
-      disponibilita = " 1 aprile 2024"
+      partenza = "Partanze: Venezia"
+      durata = "Durata: 6h 30m"
+      disponibilita = " Data: 1 aprile 2024"
       costo = "35,00 €"
     />
     <Card

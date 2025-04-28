@@ -12,7 +12,6 @@ export default function Escursione2({
     return(
         <div className="flex justify-center items-center min-h-screen">
         <Head>
-          <title>Escursione alle 3 Isole Murano - Burano - Torcello</title>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -36,13 +35,13 @@ export default function Escursione2({
                 {descrizione}
                 </p>
               <p className="mb-2 text-gray-800">
-                <strong>Partenza:</strong> {partenza}
+                {partenza}
               </p>
               <p className="mb-2 text-gray-800">
-                <strong>Durata:</strong> {durata}
+                {durata}
               </p>
               <p className="mb-4 text-gray-800">
-                <strong>Disponibile dal:</strong> {disponibilita}
+                {disponibilita}
               </p>
               <div className="flex items-center justify-between ">
                 <button className="bg-pink-800 text-white font-bold py-4 px-8 rounded-full">
