@@ -7,6 +7,7 @@ export default function Escursione({
   disponibilita,
   costo,
   immagine,
+  prenota,
 }) {
     return(
         <div className="bg-white rounded-lg shadow-lg max-w-sm mx-auto">
@@ -17,7 +18,7 @@ export default function Escursione({
         />
         <div className="bg-pink-800 text-white text-center py-2">
           <i className="fas fa-exclamation-circle"></i>
-          <span className="font-semibold">PRENOTA SUBITO!</span>
+          <span className="font-semibold">{prenota}</span>
         </div>
         <div className="p-2">
           <h2 className="mb-2 text-black">
