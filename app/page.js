@@ -1,6 +1,6 @@
-import Hero from "./components/hero";
+import Hero from "./components/collezzioni";
 import Navbar from "./components/navbar";
-import Collezioni from "./components/collezioni";
+import Collezzioni from "./components/Hero";
 import Titolo from "./components/titolo";
 import Card from "./components/card";
 import Miniature from "./components/miniature";
@@ -10,31 +10,32 @@ import Footer from "./components/footer";
 
 export default function Home() {
     
-        const professionalEmail = "info@dogedivenezia.it";
-        const professionalPhone = "+39 041 530 23 63";
-        const excursionEmail = "api@dogedivenezia.it";
-        const excursionPhone = "+39 041 315 63 02";
-        const logoSrc = "https://www.dogedivenezia.it/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75";
+        const professionalEmail = "RESI GRATUITI ENTRO 30 GIORNI";
+        const logoSrc = "https://www.diadora.com/on/demandware.static/Sites-IT-Site/-/default/dw9414c55f/images/diadora-logo-header.svg";
           
         const menuItems = [
-          { name: "Home Page", href: "#" },
-          { name: "Escursioni Giornaliere", href: "#" },
-          { name: "Servizi Professionali", href: "#" },
-          { name: "Chi Siamo", href: "#" },
-          { name: "La Flotta", href: "#" },
-          { name: "News", href: "#" },
+          { name: "UOMO", href: "#" },
+          { name: "DONNA", href: "#" },
+          { name: "BAMBINI", href: "#" },
+          { name: "SPORT", href: "#" },
+          { name: "HERITAGE", href: "#" },
+          { name: "CULTURE", href: "#" },
+          { name: "☏", href: "#" },
+          { name: "☏", href: "#" },
+          { name: "☏", href: "#" },
         ];
 return ( 
     <div>
 <Navbar
         professionalEmail={professionalEmail}
-        professionalPhone={professionalPhone}
-        excursionEmail={excursionEmail}
-        excursionPhone={excursionPhone}
         logoSrc={logoSrc}
         menuItems={menuItems}
       />
-    
+<Hero
+     immagine = "https://www.diadora.com/on/demandware.static/-/Library-Sites-DiadoraSportShared/default/dwdf3898b2/images/widget/Hero-Banner/Desktop/20250606_quatorze_running_desktop.jpg"
+     descrizione = "RUNNING"
+     titolo = "ATOMO STAR - PRINCIPLES OF ITALIAN INNOVATION"   
+/>
     
     
     
