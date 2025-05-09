@@ -1,6 +1,6 @@
-import Hero from "./components/collezzioni";
-import Navbar from "./components/navbar";
-import Collezzioni from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/hero";
+import Collezzioni from "./components/collezzioni";
 import Titolo from "./components/titolo";
 import Card from "./components/card";
 import Miniature from "./components/miniature";
@@ -37,8 +37,11 @@ return (
      titolo = "ATOMO STAR - PRINCIPLES OF ITALIAN INNOVATION"   
 />
     
-    
-    
+<Collezzioni
+     titolo="sasso"
+     lalo="trrr"
+     babo="brrr"
+/>
     
     
     
