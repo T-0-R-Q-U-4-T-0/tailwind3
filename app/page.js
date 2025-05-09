@@ -38,12 +38,17 @@ return (
 />
     
 <Collezzioni
-     titolo="sasso"
-     lalo="trrr"
-     babo="brrr"
+     titolo="LE NOSTRE COLLEZZIONI"
+     uomo="Uomo"
+     donna="Donna"
+     sport="Sport"
+     heritage="Heritage"
+     sportswear="Sportswear"
 />
     
-    
+<titolo
+
+/>
     
     
     
