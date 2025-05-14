@@ -1,6 +1,6 @@
 import React from "react";
 
-const LifestyleClassics = ({ title = "Lifestyle classics", shoes = [] }) => {
+const LifestyleClassics = ({ title = "Lifestyle classics", scarpe = [] }) => {
   return (
     <section
       style={{ backgroundColor: "#000", padding: "40px 20px", color: "#fff" }}
@@ -23,7 +23,7 @@ const LifestyleClassics = ({ title = "Lifestyle classics", shoes = [] }) => {
           overflowX: "auto",
         }}
       >
-        {shoes.map((shoe, index) => (
+        {scarpe.map((scarpe, index) => (
           <div
             key={index}
             style={{
@@ -37,8 +37,8 @@ const LifestyleClassics = ({ title = "Lifestyle classics", shoes = [] }) => {
             }}
           >
             <img
-              src={shoe.image}
-              alt={shoe.name}
+              src={scarpe.image}
+              alt={scarpe.name}
               style={{
                 width: "100px",
                 height: "100px",
@@ -46,7 +46,7 @@ const LifestyleClassics = ({ title = "Lifestyle classics", shoes = [] }) => {
                 marginBottom: "10px",
               }}
             />
-            <p style={{ fontWeight: "bold" }}>{shoe.name}</p>
+            <p style={{ fontWeight: "bold" }}>{scarpe.name}</p>
           </div>
         ))}
       </div>

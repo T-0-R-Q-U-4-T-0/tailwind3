@@ -1,40 +1,36 @@
-import Image from "next/image";
+import React from "react";
 
 export default function InEvidenza({
   titolo,
   sottotitolo,
-  testobottone,
-  bottoneconlink,
-  imageSrc,
-  imageAlt,
+  testobot,
+  immagineSrc,
+  immagineAlt,
 }) {
   return (
-    <div className="flex justify-center items-center p-4 my-8">
-      <div className="bg-gradient-to-b from-gray-900 to-black rounded-2xl overflow-hidden shadow-xl max-w-4xl mx-auto">
-        <div className="flex flex-col md:flex-row">
-          <div className="text-white p-8 md:w-1/3 flex flex-col justify-center">
-            <h2 className="text-4xl font-bold mb-2">{titolo}</h2>
-            <h3 className="text-4xl font-bold mb-8">{sottotitolo}</h3>
-            <a href={bottoneconlink} className="inline-block">
-              <button
-                className="bg-white text-black font-semibold py-3 px-8 rounded-lg whitespace-nowrap
- hover:bg-gray-200 transition-colors"
-              >
-                {testobottone}
-              </button>
-            </a>
-          </div>
-          <div className="md:w-2/3">
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              width={800}
-              height={600}
-              className="object-cover h-full w-full"
-            />
-          </div>
+    <div className="relative w-full h-[700px] rounded-2xl overflow-hidden shadow-xl my-8 bg-black">
+      {/* Background image (verticale, centrata, non tagliata) */}
+      <div
+        className="absolute inset-0 bg-no-repeat bg-center bg-contain"
+        style={{ backgroundImage: `url(${immagineSrc})` }}
+        aria-label={immagineAlt}
+      ></div>
+
+      {/* Gradient overlay per leggibilità del testo */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+
+      {/* Testo e bottone in basso a sinistra */}
+      <div className="relative z-10 h-full flex items-end p-8">
+        <div className="text-white max-w-md">
+          <h2 className="text-4xl font-bold mb-2">{titolo}</h2>
+          <h3 className="text-2xl font-semibold mb-6">{sottotitolo}</h3>
+          <button className="bg-white text-black font-semibold py-2 px-6 rounded-full hover:bg-gray-200 transition-colors">
+            {testobot}
+          </button>
         </div>
       </div>
     </div>
   );
 }
+
+

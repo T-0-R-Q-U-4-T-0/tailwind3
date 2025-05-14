@@ -53,33 +53,32 @@ activeIndex={0}
 />
     
 <Card
-        image="https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dwce513ade/images/hi-res/101.179094_C3447_00_HR.jpg?sw=1920"
-        title="ATOMO STAR"
-        price="€ 190,00"
-        description="Scarpa da running Made in Italy – Leggerezza e performance al top"
+        immagine="https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dwce513ade/images/hi-res/101.179094_C3447_00_HR.jpg?sw=1920"
+        titolo="ATOMO STAR"
+        prezzo="€ 190,00"
+        descrizione="Scarpa da running Made in Italy – Leggerezza e performance al top"
         variants={["rosso", "oro", "bianco"]}
         badgeText="Novità"
 />   
 <Miniature
   title="Le nostre icone"
-  shoes={[
-    { name: 'B.560', image: 'images/b560.png' },
-    { name: 'B.Elite', image: 'images/b.elite.png' },
-    { name: 'Game', image: 'images/game.png' },
-    { name: 'Tokyo', image: 'images/tokyo.png' },
-    { name: 'Mythos Propulsion', image: 'images/mythos.png' },
-    { name: 'Cross', image: 'images/cross.png' },
-    { name: 'Equipe', image: 'images/equipe.png' },
-    { name: 'Camaro', image: 'images/camaro.png' },
+  scarpe={[
+    { name: 'B.560', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dwfeb03999/images/hi-res/501.181246_C0351_00_HR.jpg?sw=1920' },
+    { name: 'B.Elite', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw5417ff31/images/hi-res/501.181246_C0641_00_HR.jpg?sw=1920' },
+    { name: 'Game', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw11d80402/images/hi-res/501.178745_C0351_00_HR.jpg?sw=1920' },
+    { name: 'Tokyo', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw7cc7a99d/images/hi-res/501.179584_C1161_00_HR.jpg?sw=1920' },
+    { name: 'Mythos', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw5fb165d3/images/hi-res/501.178300_C5262_00_HR.jpg?sw=1920' },
+    { name: 'Cross', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw75442a1f/images/hi-res/501.173073_C0331_00_HR.jpg?sw=1920' },
+    { name: 'Equipe', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dwd53e8209/images/hi-res/101.179094_C3513_00_HR.jpg?sw=1920' },
+    { name: 'Camaro', image: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dw4bfe04b6/images/hi-res/501.179296_C1161_00_HR.jpg?sw=1920' },
   ]}
 />
 <Inevidenza
         titolo="Run core archivio"
         sottotitolo="2009"
-        testobottone="Scopri Mythos Star"
-        bottoneconlink="#"
-        imageSrc="/images/3scarpe.png"
-        imageAlt="Run core archivio 2009"
+        testobot="Scopri Mythos Star"
+        immagineSrc="https://mediastorage.livestory.io/diadora/posts/orig/67adc962528e3da80044fc21.jpg?width=750&format=pjpg&auto=webp&quality=90"
+        immagineAlt="Run core archivio 2009"
       />
     <Servizi
   title="I nostri servizi"
@@ -145,13 +144,8 @@ activeIndex={0}
     stars: "⭐️⭐️⭐️⭐️☆",
     description: "4.7/5 Valutazione media Feedaty su 14551 recensioni",
   }}
-  paymentImages={[
-    { src: "images/visa.png", alt: "Visa" },
-    { src: "images/mastercard.png", alt: "Mastercard" },
-    { src: "images/american_express.png", alt: "American Express" },
-    { src: "images/discover.png", alt: "Discover" },
-    { src: "images/paypal.png", alt: "PayPal" },
-  ]}
+  
+
   legalLinks={[
     { href: "#", label: "Privacy" },
     { href: "#", label: "Cookie" },
