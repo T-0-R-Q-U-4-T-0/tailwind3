@@ -18,14 +18,6 @@ const Servizi = ({ title, services = [] }) => {
 };
 
 const styles = {
-  wrapper: {
-    padding: "80px 20px",
-    backgroundColor: "#fff",
-    borderRadius: "10px",
-    maxWidth: "1200px",
-    margin: "40px auto",
-    boxShadow: "0 0 10px rgba(0,0,0,0.05)",
-  },
   title: {
     textAlign: "center",
     fontSize: "32px",
@@ -48,18 +40,7 @@ const styles = {
     fontSize: "32px",
     marginBottom: "20px",
   },
-  heading: {
-    fontWeight: "bold",
-    fontSize: "18px",
-    marginBottom: "12px",
-    color: "#333",
-  },
-  link: {
-    fontSize: "16px",
-    color: "#333",
-    textDecoration: "underline",
-    cursor: "pointer",
-  },
+
 };
 
 export default Servizi;

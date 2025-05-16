@@ -8,18 +8,20 @@ export default function InEvidenza({
   immagineAlt,
 }) {
   return (
-    <div className="relative w-full h-[700px] rounded-2xl overflow-hidden shadow-xl my-8 bg-black">
-      {/* Background image (verticale, centrata, non tagliata) */}
+    <div className="relative w-[200] h-[700px] md:h-[600px] sm:h-[500px] rounded-2xl overflow-hidden shadow-xl my-8 bg-black">
+      
+      {/* Immagine di sfondo */}
       <div
-        className="absolute inset-0 bg-no-repeat bg-center bg-contain"
-        style={{ backgroundImage: `url(${immagineSrc})` }}
+        role="img"
         aria-label={immagineAlt}
+        className="absolute inset-0 bg-no-repeat bg-center bg-cover"
+        style={{ backgroundImage: `url(${immagineSrc})` }}
       ></div>
 
-      {/* Gradient overlay per leggibilità del testo */}
+      {/* Overlay per migliorare la leggibilità del testo */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
-      {/* Testo e bottone in basso a sinistra */}
+      {/* Testo dentro l'immagine */}
       <div className="relative z-10 h-full flex items-end p-8">
         <div className="text-white max-w-md">
           <h2 className="text-4xl font-bold mb-2">{titolo}</h2>
