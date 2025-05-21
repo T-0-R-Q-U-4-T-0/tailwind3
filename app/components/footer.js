@@ -15,7 +15,7 @@ export default function Footer({ socialLinks, logo, }) {
               width="48"
             />
             <div>
-              <p className="text-sm text-[#8a8fb9] mb-2">Lingua</p>
+              <p className="text-sm mb-2">Lingua</p>
               <select
                 aria-label="Seleziona lingua"
                 className="bg-[#4b57d1]/50 rounded-xl py-3 px-5 w-48 text-white text-sm focus:outline-none"

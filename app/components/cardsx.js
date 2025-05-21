@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ titolo, descrizione }) => {
+const Cardsx = ({ titolo, descrizione }) => {
   return (
     <div className="m-4 bg-gradient-to-b from-[#2a3a9d] via-[#2a3a9d]/90 to-[#0a0a4a] rounded-3xl min-h-[320px] flex items-center justify-center">
       <div className="flex flex-col items-center justify-center rounded-[96px] bg-[#4f5ab0] p-6 max-w-[1200px] w-full gap-6 md:flex-row md:items-stretch md:p-12 md:gap-12">
@@ -65,4 +65,4 @@ const Card = ({ titolo, descrizione }) => {
   );
 };
 
-export default Card;
+export default Cardsx;

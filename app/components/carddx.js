@@ -1,7 +1,7 @@
 import React from "react";
 
 
-  const Card2 = ({  titolo, descrizione 
+  const Carddx = ({  titolo, descrizione 
   }) => {
     return(
       <div className=" min-h-screen flex items-center justify-center bg-gradient-to-r from-[#1a2a8c] via-[#2a3dbb] to-[#0f1e6e] p-6">
@@ -28,4 +28,4 @@ import React from "react";
       </div>
     );
   }
-  export default Card2;
+  export default Carddx;

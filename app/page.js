@@ -83,7 +83,6 @@ apri="Apri Discord"
             memorizzare i cookie sul dispositivo per migliorare la navigazione
             del sito, analizzare l'utilizzo del sito e assistere nelle nostre
             attività di marketing."
-          impostazioni=" Impostazioni cookie"
           rifiuta=" Rifiuta tutti"
           cookie="  Accetta tutti i cookie"
           

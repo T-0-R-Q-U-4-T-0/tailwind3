@@ -1,7 +1,6 @@
 const Privacy = ({
     titolo,
     paragrafo,
-    impostazioni,
     rifiuta,
     cookie,
     
@@ -21,12 +20,6 @@ const Privacy = ({
             </p>
           </div>
           <div className="flex items-center gap-3 flex-shrink-0">
-            <button
-              type="button"
-              className="text-sm font-semibold text-blue-600 hover:underline focus:outline-none"
-            >
-             {impostazioni}
-            </button>
             <button
               type="button"
               className="bg-gray-900 text-white text-sm font-semibold rounded-full px-5 py-2 hover:bg-gray-800 focus:outline-none"
